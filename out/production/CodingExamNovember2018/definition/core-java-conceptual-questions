@@ -1,28 +1,74 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.JAVA is a Programming Language and a Computing Platform for Application Development.
-JAVA Platform is a Collection of Programs that help to Develop and run Programs written
-in the JAVA Programming Language
+A. computer programs are instructions that we give to a computer that it will understand
+
 What jdk contains or composed of and define each components?
-A.
+A. JDK are a set of tools and libraries that are needed to run a java program.
+jdk contains javac, which compiles java soure code. we also java tool which executes the bytecode from the java compiler.
+we also have jar tool which contains classes and methods that accomplish a specific task
+
 What is IDE?
-A.
+A. IDE stands for integrated development environment. it is here that we write our java source code
+
 What are the IDEs available in the market to support java?
+A. Some popular ones include eclipse,intellij and netbeans.
+
 Explain the entire java life cycle.
+A. We start with our source code in IDE. this gets converted to bytecode by the java compiler.
+then the byte code is loaded into memory by the class loader and executed by the jvm into machine code
+
 what is class?
+A. A class is a blueprint of the states and behaviors of a certain type of model
+
 What is object?
+A. An object is a instance of a certain class with its own unique fields and behaviors
+
 What is the entry point of an application?
+A. the entry point of any java application is the main method
+
 Why main is static?
+A. if main was not static we would always have to create an instance of the main's class in order to use it
+
 Which class is the superclass of all classes?
+A. the super class of all classes is the object class
+
 What is difference between path and classpath variables?
+A. path is used to store the location of jdk tools like javac or java, but classpath is used to store the location of the
+flies and folders your application needs to run properly
+
 What is the difference between an Interface and Abstract class?
+A. in an interface all methods must be declared only. In an abstract class you can have both abstract and non abstract method.
+classes can implement many interfaces, but only one abstract class
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. interfaces and abstract classes cannot be instantiated, the only way to use them is for a class to implement a interface or extend an abstract class
+
 what is Access Specifier?
+A. Access specifiers establish the permissions we have to access or modify members of a class within a certain scope.
+
 What is OOP ? Define each feature of java OOP.
+A. oop stands for object oriented programming. all java applications are based on the concept of objects.
+there are oop concepts:
+inheritence: this is when a class has access to the members of its parent without having to be reimplemented.
+polymorhism: this is when a class can change the methods of its parents class to fit its specific needs as well as add its own members
+encapsulation: this is when we restrict the scope of certain members so that they cannot be manipulated outside of the class where they
+are defined, this is achieved with the "private keyword";
+abstraction: abstraction is the process of implentation hiding. we use it when we want certain features to be implemented but we dont care
+how it is implemented
+
 What is Java Package and which package is imported by default?
+A. a package is simply a folder or directory that stores related files and applications for easy access and readability
+The default package is an unnamed package. The unnamed package contains java classes whose source files did not contain a package declaration.
+
 What is API? Name list of API that you have used so far.
+A. API stands for Application programming interface, it is essentially a service that we use to communicate one computer
+with another. We have used the instagram api, the google maps api, the calender api
+
 Does java support multiple inheritance, explain why or why not?
+A. java does not allow multiple inheritence, only One parent can be inherited from, but we can get around this by implementing
+as many interfaces as we want.
+
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
