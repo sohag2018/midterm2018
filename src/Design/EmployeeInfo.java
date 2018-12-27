@@ -1,8 +1,8 @@
-package design;
+package Design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo extends Design.KhamarBari implements Design.Employee { //public class EmployeeInfo extends KhamarBari implements Employee{
+public class EmployeeInfo extends KhamarBari implements Employee {
 
     /* Exception Handling is not used */
 
@@ -141,33 +141,33 @@ public class EmployeeInfo extends Design.KhamarBari implements Design.Employee {
         return total;
     }
 
-     @Override
+  //  @Override
     public void Description() {
 
     }
 
-     @Override
+   // @Override
     public int employeeId() {
         return 0;
     }
 
-     @Override
+   // @Override
     public String employeeName() {
         return null;
     }
 
-     @Override
+   // @Override
     public void assignDepartment() {
 
     }
-    @Override
+   // @Override
     public int calculateYearlySalary() {
         int monthlySalary = this.monthlySalary;
         int yearlySalary = (int)(12*monthlySalary);
         return yearlySalary;
     }
 
-     @Override
+   // @Override
     public void benefitLayout() {
 
     }

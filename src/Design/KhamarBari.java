@@ -1,4 +1,4 @@
-package Design1;
+package Design;
 
 public abstract class KhamarBari {
     static String companyName ="Name: Khamar Bari Grocery";

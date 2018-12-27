@@ -1,4 +1,4 @@
-package Design1;
+package Design;
 
 public interface Employee {
 

@@ -39,7 +39,7 @@ class CnnAPI {
 		"content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
 	   },{}]
 	   Read the articles array and construct Headline news as source, author, title,description,url,urlToImage,publishedAt
-	   and content. You need to design News Data Model and construct headline news.
+	   and content. You need to design123 News Data Model and construct headline news.
 	   You can store in Map and then into ArrayList as your choice of Data Structure.
 	   You can follow How we implemented in Employee and JsonReaderUtil task.
 	   Show output of all the headline news in to console.

@@ -1,4 +1,4 @@
-package Design1;
+package Design;
 
 public class KhamarBariJamaica extends EmployeeInfo {
     public static void KhamarBariJamaicainfo(){

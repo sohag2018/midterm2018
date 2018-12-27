@@ -1,4 +1,4 @@
-package design;
+package Design;
 
 import org.testng.Assert;
 

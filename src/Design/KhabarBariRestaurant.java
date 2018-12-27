@@ -1,9 +1,9 @@
-package design;
-
-public class KhabarBariRestaurant {
+package Design;
+//Inheritance
+public class KhabarBariRestaurant extends EmployeeInfo {
     public KhabarBariRestaurant(){
-       // super(1345,"Kamal Hossin,","MGT Dept. Khabar Bari Restaurant & Khamar Bari Grocery,",'M',true,4);//only one constructor either default or parameterized, can be called by super from Parents class
-       // super.benefitLayout(); //super can call it's parent's original method as well as it's inherited method from Interface and Abstract class.
+        super(1345,"Kamal Hossin,","MGT Dept. Khabar Bari Restaurant & Khamar Bari Grocery,",'M',true,4);//only one constructor either default or parameterized, can be called by super from Parents class
+        super.benefitLayout(); //super can call it's parent's original method as well as it's inherited method from Interface and Abstract class.
         //super.healthInsurance(); we can call healthInsurance by using super word from super class also
     }
 
@@ -38,3 +38,4 @@ public class KhabarBariRestaurant {
 //EmployeeInfo - KhabarBariRestaurant - - Single inheritance
 //EmployeeInfo - KhabarBariRestaurant - KhamarBariBronx - - Multilevel inheritance
 //EmployeeInfo - KhabarBariRestaurant, EmployeeInfo - KhamarBariJamaica - - hierearchical inheritance
+

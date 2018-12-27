@@ -1,4 +1,4 @@
-package Design1;
+package Design;
 
 public class KhamarBariBronx extends KhamarBariJamaica {
     public  void KhamarBariBronxInfo(){

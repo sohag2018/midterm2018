@@ -1,4 +1,4 @@
-package Design1;
+package Design;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ public class FortuneEmployee {
     /**Demonstrate as many methods as possible
      * to use with proper business work flow.Think as a Software Architect, Product Designer and
      * as a Software Developer.(employee.info.system) package is given as an outline,you need to elaborate
-     * more to design an application that will meet for fortune 500 Employee Information
+     * more to design123 an application that will meet for fortune 500 Employee Information
      * Services.
      *
      * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
