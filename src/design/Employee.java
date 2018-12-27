@@ -1,26 +1,27 @@
-package design;
+package Design;
 
 public interface Employee {
-	
-	/*Employee is an Interface which contains multiple unimplemented methods.Again few methods
-	has been declared in below. you need to brainstorm to add more methods to meet the business requirements.
-	*/
-	//please read the following method and understand the business requirements of these following methods
-	//and then implement these in a concrete class.
-	
-	//employeeId() will return employee id.
+
+	//Method declared in interface (supplied)
 	public int employeeId();
-	
-	//employeeName() will return employee name
 	public String employeeName();
-	
-	//assignDepartment() will assign employee to departments
-    public void assignDepartment();
-	
-	//calculate employee salary
-	public int calculateSalary();
-	
-	//employee benefit
+	public void assignDepartment();
+	public int calculateYearlySalary();
 	public void benefitLayout();
+
+	//default and static method can be implemented in Interface(created)
+	public default void startUpBonus(){
+		System.out.println("\n Common Benefits: ");
+		System.out.println("* Every employee will be eligible to have $1000 as a joining bonus");
+	}
+	public static void housing(){
+		System.out.println("* Only permanent emplloyees will be eligible to have the 50% discounted rate company owned apartment");
+	}
+	public static void transport(){
+		System.out.println("* All employees will be allowed to use office transportion facilities for office pick up and drop off service and as per office need");
+	}
+	public static void education(){
+		System.out.println("* Only permanent employees will be paid $500/child");
+	}
 
 }
